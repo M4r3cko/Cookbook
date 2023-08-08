@@ -1,0 +1,121 @@
+* {
+  font-family: Georgia;
+}
+
+.card {
+  margin: 2px;
+}
+
+.card-img {
+  width: 400px;
+  height: 300px;
+}
+
+.card-deck {
+  display: flex;
+}
+
+.card-footer {
+  background-color: rgba(59, 59, 59, 0.61);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.spinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 70px;
+  color: cornflowerblue;
+}
+
+.RecipeDetailPage button {
+  background: red;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.directions {
+  list-style-type: circle;
+}
+
+.legend {
+  font-size: 30px;
+}
+
+._2in1 {
+  display: flex;
+  size: auto;
+  margin: 5px;
+}
+
+.fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+}
+
+.buttons {
+  float: right;
+
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.no-information {
+  background-color: rgba(116, 159, 238, 0.355);
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.name {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 320px;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.prep {
+  color: ghostwhite;
+  font-style: italic;
+  font-size: small;
+}
+
+.grid {
+  display: auto;
+}
+
+.table:hover {
+  background-color: rgba(100, 148, 237, 0.501);
+}
+
+.flex {
+  flex-wrap: wrap;
+}
+
+.trash-button {
+  color-scheme: rgb(163, 19, 19);
+}
+
+.trash {
+  width: 30px;
+  height: 30px;
+}
